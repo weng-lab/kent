@@ -15,6 +15,7 @@
 #else // no USE_BAM
 typedef struct { } bam1_t;
 typedef struct { } samfile_t;
+typedef struct { } bam_index_t;
 typedef int (*bam_fetch_f)(const bam1_t *b, void *data);
 
 #define COMPILE_WITH_SAMTOOLS "%s: in order to use this functionality you must " \
