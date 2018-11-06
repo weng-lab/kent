@@ -23,6 +23,8 @@
  * The bitmap file contains time stamp and size data as well as an array with one bit
  * for each block of the file that has been fetched.  Currently the block size is 8K. */
 
+#define MAXNAMLEN 512
+
 #include <sys/file.h>
 #include <sys/mman.h>
 #include "common.h"

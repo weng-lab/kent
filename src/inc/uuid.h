@@ -5,7 +5,7 @@
  *
  * If you use this file you need to add -luuid to your link line. */
 
-#include <uuid/uuid.h>
+#include <linux/uuid.h>
 
 #define UUID_STRING_SIZE 37
 
