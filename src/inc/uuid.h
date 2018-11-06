@@ -5,7 +5,9 @@
  *
  * If you use this file you need to add -luuid to your link line. */
 
-#include <linux/uuid.h>
+#ifndef LIBUUID_NOT_PRESENT
+#include <uuid/uuid.h>
+#endif
 
 #define UUID_STRING_SIZE 37
 
